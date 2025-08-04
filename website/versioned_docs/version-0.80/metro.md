@@ -91,7 +91,7 @@ module.exports = mergeConfig(defaultConfig, config);
 ```js
 const config = {
   resolver: {
-    sourceExts: ['js', 'ts', 'tsx', 'svg'],
+    sourceExts: ['js', 'jsx', 'json', 'ts', 'tsx', 'svg'],
   },
 };
 ```
